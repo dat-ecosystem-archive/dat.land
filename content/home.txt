@@ -1,0 +1,40 @@
+title: Welcome to Dat Land
+
+----
+
+subtitle: Dat's Hacker Community
+
+----
+
+intro:
+
+Join us in creating technology for the public good.
+Our community strives to build inclusive & diverse spaces for sharing or collaboration.
+
+[Dat Project](http://datproject.org) imagines a better future for public data access, a future of apps that put users in control while improving security and speed.
+
+Help us build that future.
+
+----
+
+text:
+
+## What is Dat?
+
+Dat is a new peer to peer protocol for building apps of the future.
+Building on the design of Bittorrent, Git, and other technologies, Dat creates new possibilities for data-rich applications. Dat efficiently syncs & versions data across a distributed network.
+
+## Start Building
+
+Dat's open source ecosystem makes it easy to build apps on top of Dat or contribute to the Dat core. Learn more:
+
+* [Build Dat-Powered Apps](/apps-on-dat/) - use Dat to create data-rich applications with painless file sync & distributed streams.
+* [Build Dat Core](/contribute/) - help us build Dat's core tools and applications!
+
+## Add more to this site!
+
+This community site is still in its infancy. We want to build it with you using a fair and open process.
+
+* How do we want to represent our community (mission, goals)?
+* What resources will be essential for users?
+* What actions do we take now to ensure our community remains inclusive and diverse?
