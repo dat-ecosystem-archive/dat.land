@@ -9,7 +9,7 @@ intro:
 
 The Dat protocol puts powerful data distribution into the hands of any app developer.
 With full Javascript implementation, Dat integrates easily into the browser or with Electron.
-Start building today using [dat-node](http://github.com/datproject/dat-node) for filesystem applications or [hypercore](http://github.com/mafintosh/hypercore) for distributed streams.
+Start building today using [dat-node](https://github.com/datproject/dat-node) for filesystem applications or [hypercore](https://github.com/mafintosh/hypercore) for distributed streams.
 
 ----
 
@@ -17,11 +17,11 @@ text:
 
 Dat is a new p2p hypermedia protocol. It provides public-key- & sha256-addressed file archives which can be synced securely and browsed on-demand. Dat supports streaming updates and partial on-demand replication, and has plans for versioned URLs and efficient compaction.
 
-Learn more about Dat in the [documentation](http://docs.datproject.org) or [whitepaper](http://datproject.org/paper).
+Learn more about Dat in the [documentation](https://docs.datproject.org) or [whitepaper](https://datproject.org/paper).
 
 ## Showcase
 
-Applications such as [Dat Desktop](http://github.com/datproject/dat-desktop), the Beaker Browser, and ScienceFair are creating new ways to share information & interact online.
+Applications such as [Dat Desktop](https://github.com/datproject/dat-desktop), the Beaker Browser, and ScienceFair are creating new ways to share information & interact online.
 
-* [Beaker Browser](http://beakerbrowser.com/) - Beaker is using Dat to rethink the web browser. It is a peer-to-peer browser with tools to create and host websites. You can also access any Dat as easy as opening a web page.
-* [ScienceFair](http://sciencefair-app.com) - the open source p2p desktop science library that puts users in control. ScienceFair uses Dat to distribute papers and metadata.
+* [Beaker Browser](https://beakerbrowser.com/) - Beaker is using Dat to rethink the web browser. It is a peer-to-peer browser with tools to create and host websites. You can also access any Dat as easy as opening a web page.
+* [ScienceFair](https://sciencefair-app.com) - the open source p2p desktop science library that puts users in control. ScienceFair uses Dat to distribute papers and metadata.
