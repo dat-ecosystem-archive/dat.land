@@ -17,7 +17,7 @@ text:
 
 Dat is a new p2p hypermedia protocol. It provides public-key- & sha256-addressed file archives which can be synced securely and browsed on-demand. Dat supports streaming updates and partial on-demand replication, and has plans for versioned URLs and efficient compaction.
 
-Learn more about Dat in the [documentation](https://docs.datproject.org) or [whitepaper](https://github.com/datproject/docs/tree/master/papers).
+Learn more about Dat in the [documentation](https://docs.datproject.org) or [whitepaper](https://datproject.org/paper).
 
 ## Showcase
 
