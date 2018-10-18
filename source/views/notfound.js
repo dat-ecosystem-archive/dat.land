@@ -1,8 +1,7 @@
 var html = require('choo/html')
-var wrapper = require('../components/wrapper')
 var format = require('../components/format')
 
-module.exports = wrapper(view)
+module.exports = view
 
 function view (state, emit) {
   return html`

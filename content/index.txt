@@ -1,0 +1,80 @@
+title: dat.land
+
+----
+view: home
+----
+
+tagline: ecosystem
+
+----
+
+links:
+  dat:
+    link: https://datproject.org
+    title: datproject.org
+  documentation:
+    link: https://docs.datproject.org/
+    title: Documentation
+  chat:
+    link: http://chat.datproject.org
+    title: Dat Chat
+----
+
+nav-links:
+  apps:
+    link: /apps
+    title: Applications
+  modules:
+    link: /modules
+    title: Modules
+  dat:
+    link: https://datproject.org
+    title: datproject.org
+
+----
+
+featured:
+  beaker:
+    link: https://beakerbrowser.com
+    image: /assets/beaker-screenshot.png
+    title: Beaker Browser
+    description: An experimental browser for exploring and building the peer-to-peer Web.
+    author: Blue Link Labs
+  desktop:
+    link: https://github.com/dat-land/dat-desktop
+    image: /assets/dat-desktop-empty.png
+    title: Dat Desktop
+    description: Use Dat with a desktop app.
+    author: Contributors & Dat Project Developers
+  text:
+    text: true
+  cabal:
+    link: http://cabal.chat/
+    title: Cabal Chat
+    image: /assets/cabal.png
+    description: experimental p2p community chat platform
+    author: Contributors Welcome y'all
+  sciencefair:
+    link: http://sciencefair-app.com/
+    image: /assets/sf-home.png
+    title: ScienceFair
+    description: Search, collect, read and reuse the scientific literature.
+    author: Richard Smith-Unna
+  pixel:
+    link: https://github.com/automerge/pixelpusher
+    image: /assets/pixelpusher.png
+    title: Pixelpusher
+    description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
+    author: Ink & Switch
+
+----
+
+intro:
+
+## <span class="color-green">dat.land</span> applications & tools
+
+#### A Community-Driven Ecosystem
+
+<span class="color-green">dat://</span> is a peer-to-peer protocol for building decentralized tools. Is is a community-driven project powering a next-generation Web. Building on the design of Bittorrent, Git, and other technologies, Dat creates new possibilities for data-rich applications. View **[applications](/apps)** and **[modules](/modules)**.
+
+
