@@ -70,8 +70,9 @@ function textBox () {
           </div>
           <div class="dtc v-top pl2">
             <h1 class="f6 f5-ns fw6 lh-title black mv0">Building on Dat</h1>
-            <h2 class="f6 fw4 mt2 mb0 black-60">Community-Driven: learn more about applications built on Dat.
-    Open Source: discover open source Dat modules and more.</h2>
+            <h2 class="f6 fw4 mt2 mb0 black-60">
+              The <a href="https://datprotocol.com">Dat Protocol</a> and Node.js ecosystem make it easy to build peer-to-peer applications on Dat.
+            </h2>
           </div>
         </a>
       </article>
@@ -83,7 +84,7 @@ function textBox () {
           <div class="dtc v-top pl2">
             <h1 class="f6 f5-ns fw6 lh-title black mv0">Add Your Creations</h1>
             <h2 class="f6 fw4 mt2 mb0 black-60">
-
+              Help build the Dat ecosystem! Share your creation on Dat Land and tell your friends.
             </h2>
           </div>
         </a>
@@ -94,8 +95,10 @@ function textBox () {
             <svg class="db w-100"><use xlink:href="#daticon-happy-dat"/></svg>
           </div>
           <div class="dtc v-top pl2">
-            <h1 class="f6 f5-ns fw6 lh-title black mv0">Contribute Your Creations</h1>
-            <h2 class="f6 fw4 mt2 mb0 black-60">Edit the site ot add your application. Open Source: discover open source Dat modules and more</h2>
+            <h1 class="f6 f5-ns fw6 lh-title black mv0">Contribute to Dat</h1>
+            <h2 class="f6 fw4 mt2 mb0 black-60">
+              Dat Project runs through open working groups and aims to be transparent about how the organization operates. Dat is publicly funded and supported by a nonprofit. Join us!
+            </h2>
           </div>
         </a>
       </article>

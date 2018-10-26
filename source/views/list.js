@@ -37,10 +37,17 @@ function box (props) {
           <p class="f6 lh-copy measure mt2 mid-gray">
             ${props.description}
           </p>
-          <p class="f6 lh-copy measure mt2 i mid-gray">
-            <b>TAGS</b>: ${props.tags}
-          </p>
+          ${tags(props.tags)}
         </div>
       </a>
     `
+
+  function tags (tags) {
+    if (!tags) return ''
+    return html`
+      <p class="f6 lh-copy measure mt2 i mid-gray">
+        <b>TAGS</b>: ${props.tags}
+      </p>
+    `
+  }
 }

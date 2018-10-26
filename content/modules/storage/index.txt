@@ -2,7 +2,7 @@ title: Dat Storage
 ----
 view: list
 ----
-text: Every dat archive has storage, this is the required first argument for dat-node. By default, we use dat-storage which stores the secret key in ~/.dat/ and the rest of the data in dir/.dat. Any random-access-storage can be used.
+text: Dat provides flexible storage through any random-access compatible interface. See the Random Access Storage organization on Github for more!
 ----
 list:
   ras:
@@ -15,6 +15,3 @@ list:
     description: Continuous reading or writing to a file using random offsets and lengths.
     link: https://github.com/random-access-storage/random-access-file
     tags: storage
-----
-categories:
-  cli

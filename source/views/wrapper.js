@@ -100,8 +100,8 @@ function renderNavigation (state, emit) {
       </div>
       ${editLink()}
       <footer class="absolute bottom-0 mb4 color-neutral-04 dn db-l">
-        <a href="https://datproject.org" class="link f3 dim lh-solid">datproject.org</a>
-        <a href="http://twitter.com/${state.page('/contact').v('twitter')}" target="_blank" class="dim mt1 f3 db b ttu lh-solid">@dat_project</p>
+        <a href="http://twitter.com/${state.page('/contact').v('twitter')}" target="_blank" class="dim f5 db mb1 lh-solid">@dat_project</p>
+        <a href="https://enoki.site" class="link f5 dim lh-solid">Built on Enoki</a>
       </footer>
     </nav>
   `
