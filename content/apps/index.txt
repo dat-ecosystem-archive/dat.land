@@ -1,0 +1,37 @@
+title: Applications
+----
+view: list
+----
+list:
+  beaker:
+    link: https://beakerbrowser.com
+    title: Beaker Browser
+    description: An experimental browser for exploring and building the peer-to-peer Web.
+    tags: browser, gui, electron
+  desktop:
+    link: https://github.com/dat-land/dat-desktop
+    title: Dat Desktop
+    description: Use Dat with a desktop app.
+    tags: gui, electron
+  sciencefair:
+    link: http://sciencefair-app.com/
+    title: ScienceFair
+    description: Search, collect, read and reuse the scientific literature.
+    tag: gui, electron, research
+  pixel:
+    link: https://github.com/automerge/pixelpusher
+    title: Pixelpusher
+    description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
+    tags: gui, art
+  pinboard:
+    link: https://github.com/inkswitch/pinboard
+    title: Pinboard
+    description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
+    tags: gui
+  cabal:
+    link: https://cabal-club.github.io/
+    title: Cabal
+    description: experimental p2p community chat platform
+    tags: gui, chat
+
+

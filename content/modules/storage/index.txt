@@ -1,0 +1,17 @@
+title: Dat Storage
+----
+view: list
+----
+text: Dat provides flexible storage through any random-access compatible interface. See the Random Access Storage organization on Github for more!
+----
+list:
+  ras:
+    title: Random Access Storage
+    description: A random-access-storage instance is a common interface for a storage abstraction.
+    link: https://github.com/random-access-storage
+    tags: storage
+  raf:
+    title: Random Access File
+    description: Continuous reading or writing to a file using random offsets and lengths.
+    link: https://github.com/random-access-storage/random-access-file
+    tags: storage
