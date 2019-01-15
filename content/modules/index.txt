@@ -20,3 +20,13 @@ list:
     description: A random-access-storage instance is a common interface for a storage abstraction.
     link: /modules/storage
     tags: storage
+  networking:
+    title: Net Modules
+    description: When building a Dat app you are free to choose how to connect peers.
+    link: /modules/networking
+    tags: network
+  helpers:
+    title: Helper Modules
+    description: Some utilities for using Dat in different ways
+    link: /modules/helpers
+    tags: helpers, utils
