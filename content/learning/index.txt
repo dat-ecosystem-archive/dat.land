@@ -1,0 +1,23 @@
+title: Learning
+----
+view: list
+----
+text: Want to learn how Dat works? Or maybe want to help others to jump into the dat scene. Anyway, here are some resources that can help you.
+----
+list:
+  kappa:
+    title: Kappa Architecture Workshop
+    description: A small series of workshops to introduce kappa architecture and how to build p2p programs with modules like hypercore, multifeed, and kappa-core.
+    link: https://github.com/kappa-db/workshop
+    tags: kappa, learning
+  datweb:
+    title: Dat Workshop
+    description: Learn how to combine Dat and a web app business logic to create P2P web apps.
+    link: https://github.com/geut/dat-workshop
+    tags: learning, webapps
+  howdatworks:
+    title: How Dat Works
+    description: A walk through the bits and bytes of Dat’s network protocol. Lots of pictures, just enough words.
+    link: https://github.com/vtduncan/how-dat-works
+    tags: learning, protocol
+

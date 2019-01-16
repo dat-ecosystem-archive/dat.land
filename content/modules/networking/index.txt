@@ -1,0 +1,17 @@
+title: Dat Networking
+----
+view: list
+----
+text: These modules should help you to create a swarm of P2P connections.
+----
+list:
+  webrtc-swarm:
+    title: webrtc-swarm
+    description: Create a swarm of p2p connections using webrtc and a signalhub.
+    link: https://github.com/mafintosh/webrtc-swarm
+    tags: network, swarm
+  geut-wertc-swarm:
+    title: discovery-swarm-webrtc
+    description: webrtc-swarm but with a similar API to discovery-swarm
+    link: https://github.com/geut/discovery-swarm-webrtc
+    tags: network, swarm

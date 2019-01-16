@@ -33,5 +33,16 @@ list:
     title: Cabal
     description: experimental p2p community chat platform
     tags: gui, chat
+  olaf:
+    link: https://github.com/geut/olaf
+    title: Olaf
+    description: A P2P Dat-powered chat as a PWA
+    tags: browser, chat, webapp
+  archipel:
+    link: https://github.com/archipel-somoco/archipel
+    title: Archipel
+    description: An app to share archives of files and folders in a peer to peer network
+    tags: browser, file-sharing, electron
+
 
 

@@ -30,7 +30,9 @@ nav-links:
   dat:
     link: https://datproject.org
     title: datproject.org
-
+  learning:
+    link: /learning
+    title: Learning
 ----
 
 featured:
