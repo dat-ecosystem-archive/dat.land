@@ -43,6 +43,11 @@ list:
     title: Archipel
     description: An app to share archives of files and folders in a peer to peer network
     tags: browser, file-sharing, electron
+  ara:
+    link: https://ara.one/app
+    title: Ara File Manager
+    description: An ethereum app for publishing, selling, and purchasing digital content through the Ara network
+    tags: electron, gui, ethereum, blockchain
 
 
 
