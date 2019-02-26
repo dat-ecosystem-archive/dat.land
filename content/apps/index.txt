@@ -23,10 +23,10 @@ list:
     title: Pixelpusher
     description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
     tags: gui, art
-  pinboard:
-    link: https://github.com/inkswitch/pinboard
-    title: Pinboard
-    description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
+  pushpin:
+    link: https://inkandswitch.github.io/pushpin/
+    title: Pushpin
+    description: Collaborative digital workspace that works offline and syncs in real-time
     tags: gui
   cabal:
     link: https://cabal-club.github.io/
