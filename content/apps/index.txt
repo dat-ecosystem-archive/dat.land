@@ -48,6 +48,11 @@ list:
     title: Ara File Manager
     description: An ethereum app for publishing, selling, and purchasing digital content through the Ara network
     tags: electron, gui, ethereum, blockchain
+  dat-keyserver:
+    link: https://github.com/tdjsnelling/dat-keyserver
+    title: dat-keyserver
+    description: a distributed PGP keyserver project based on the dat protocol
+    tags: server, gui, pgp
 
 
 
