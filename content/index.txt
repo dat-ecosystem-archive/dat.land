@@ -10,13 +10,13 @@ tagline: ecosystem
 
 links:
   dat:
-    link: https://datproject.org
-    title: datproject.org
+    link: https://dat.foundation
+    title: dat.foundation
   documentation:
-    link: https://docs.datproject.org/
+    link: https://docs.datproject.org
     title: Documentation
   chat:
-    link: http://chat.datproject.org
+    link: https://gitter.im/datproject/discussions
     title: Dat Chat
 ----
 
@@ -28,8 +28,8 @@ nav-links:
     link: /modules
     title: Modules
   dat:
-    link: https://datproject.org
-    title: datproject.org
+    link: https://dat.foundation
+    title: dat.foundation
   learning:
     link: /learning
     title: Learning
@@ -51,13 +51,13 @@ featured:
   text:
     text: true
   cabal:
-    link: http://cabal.chat/
+    link: http://cabal.chat
     title: Cabal Chat
     image: /assets/cabal.png
     description: experimental p2p community chat platform
     author: Contributors Welcome y'all
   sciencefair:
-    link: http://sciencefair-app.com/
+    link: http://sciencefair-app.com
     image: /assets/sf-home.png
     title: ScienceFair
     description: Search, collect, read and reuse the scientific literature.
