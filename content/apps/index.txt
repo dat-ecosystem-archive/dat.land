@@ -48,6 +48,11 @@ list:
     title: Ara File Manager
     description: An ethereum app for publishing, selling, and purchasing digital content through the Ara network
     tags: electron, gui, ethereum, blockchain
+  chirper:
+    link: https://github.com/filipdanic/chirper
+    title: Chirper
+    description: An open source P2P Dat-powered app for sharing short form thoughts and notes called “chirps.” Built with React. Peer discovery works via webrtc-swarm and signalhub.
+    tags: browser, webapp
 
 
 
