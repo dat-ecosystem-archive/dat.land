@@ -22,7 +22,7 @@ function page (state, emit) {
               })}
             </div>
           </div>
-          ${ov(state.page().v('featured')).map(featuredBox)}
+          ${ov(state.page().v('apps')).map(featuredBox)}
         </div>
       </article>
     </section>
