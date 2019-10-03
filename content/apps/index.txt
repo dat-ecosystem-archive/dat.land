@@ -8,23 +8,18 @@ list:
     title: Beaker Browser
     description: An experimental browser for exploring and building the peer-to-peer Web.
     tags: browser, gui, electron
-  desktop:
-    link: https://github.com/dat-land/dat-desktop
-    title: Dat Desktop
-    description: Use Dat with a desktop app.
-    tags: gui, electron
   sciencefair:
     link: http://sciencefair-app.com/
     title: ScienceFair
     description: Search, collect, read and reuse the scientific literature.
     tag: gui, electron, research
-  pixel:
-    link: https://github.com/automerge/pixelpusher
-    title: Pixelpusher
-    description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
-    tags: gui, art
-  pinboard:
-    link: https://github.com/inkswitch/pinboard
+  pushpin:
+    link: https://inkandswitch.github.io/pushpin/
+    title: Pushpin
+    description: A collaborative digital workspace that works offline and syncs in real-time 
+    tags: gui
+  pixelpusher:
+    link: https://github.com/inkswitch/pixelpusher
     title: Pinboard
     description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
     tags: gui
@@ -48,6 +43,15 @@ list:
     title: Ara File Manager
     description: An ethereum app for publishing, selling, and purchasing digital content through the Ara network
     tags: electron, gui, ethereum, blockchain
-
+  mapeo:
+    link: https://mapeo.world
+    title: Mapeo
+    description: Map from the middle of anywhere. Monitoring & mapping technology for remote environments.
+    tags: electron, gui, maps
+  peermaps:
+    link: https://mapeo.world
+    title: Peermaps
+    description: A distributed, offline-friendly alternative to commercial map providers such as google maps.
+    tags: web, gui, maps
 
 
