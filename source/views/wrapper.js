@@ -9,7 +9,6 @@ module.exports = view
 
 function view (state, emit) {
   var page = state.page
-
   // loading
   if (!state.site.loaded) return renderLoading(state, emit)
   // 404
@@ -80,9 +79,9 @@ function renderNavigation (state, emit) {
     <nav class="bg-neutral w-20-l w-100 min-vh-100-l pa3 pa4-l pl3-l top-0 sticky-l">
       <div class="flex flex-column-l justify-between mw-100">
         <div class="pt3 bt bw2 b--color-pink color-neutral-04">
-          <a class="link mb0 f2 lh-title fw9" href="/" title="dat.land">
+          <a class="link mb0 f2 lh-title fw9" href="./" title="dat.land">
             dat<span class=" hover-color-green color-neutral-50">
-            <img class="${logoCss} w2 v-mid h2 mr1 pb1" src="/assets/dat-logo-small.png">
+            <img class="${logoCss} w2 v-mid h2 mr1 pb1" src="assets/dat-logo-small.png">
             land</span>
           </a>
         </div>
@@ -100,14 +99,14 @@ function renderNavigation (state, emit) {
       </div>
       ${editLink()}
       <footer class="absolute bottom-0 mb4 color-neutral-04 dn db-l">
-        <a href="http://twitter.com/${state.page('/contact').v('twitter')}" target="_blank" class="dim f5 db mb1 lh-solid">@dat_project</p>
+        <a href="http://twitter.com/${state.page('./contact').v('twitter')}" target="_blank" class="dim f5 db mb1 lh-solid">@dat_project</p>
         <a href="https://enoki.site" class="link f5 dim lh-solid">Built on Enoki</a>
       </footer>
     </nav>
   `
   function editLink () {
     const ghPath = state.page().v('path')
-    const href = `http://github.com/dat-land/website/blob/master${ghPath}/index.txt`
+    const href = `http://github.com/dat-ecosystem/dat-land/blob/master${ghPath}/index.txt`
 
     return html`
       <a class="fixed top-0 right-0 bg-neutral ph2 mr3 pv3 br3 br--bottom
