@@ -18,7 +18,6 @@ function view (state, emit) {
 
   // title
   var title = getTitle(state)
-  console.log('title', title)
   if (state.title !== title) emit(state.events.DOMTITLECHANGE, title)
 
   // template

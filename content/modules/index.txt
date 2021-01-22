@@ -8,7 +8,7 @@ list:
   dat:
     title: Dat CLI
     description: Dat's core command line interface developed by Dat Project developers.
-    link: https://github.com/datproject/dat
+    link: https://github.com/dat-ecosystem/dat
     tags: cli
   dat-node:
     title: dat-node
