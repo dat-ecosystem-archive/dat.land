@@ -56,7 +56,7 @@ function featuredBox (props) {
     `
 
   function img (url) {
-    return html`<img class="w-100 br2 br--top" style="margin-bottom:auto;" src="${url}">`
+    return html`<img class="w-100 br2 br--top" style="margin-bottom:auto;" src="/dat.land/${url}">`
   }
 }
 

@@ -48,6 +48,7 @@ function renderLoading (state, emit) {
 }
 
 function renderNotFound (state, emit) {
+  debugger
   return html`
     <body>
       <main class="relative flex">
@@ -80,7 +81,7 @@ function renderNavigation (state, emit) {
         <div class="pt3 bt bw2 b--color-pink color-neutral-04">
           <a class="link mb0 f2 lh-title fw9" href="./" title="dat.land">
             dat<span class=" hover-color-green color-neutral-50">
-            <img class="${logoCss} w2 v-mid h2 mr1 pb1" src="assets/dat-logo-small.png">
+            <img class="${logoCss} w2 v-mid h2 mr1 pb1" src="/dat.land/assets/dat-logo-small.png">
             land</span>
           </a>
         </div>

@@ -10,7 +10,7 @@ module.exports = function (state, emit) {
     <nav class="bg-white bb b--dat-neutral-10 dt w-100 border-box pa3 ph5-l">
       <div class="dtc v-mid w-25-l w-10">
         <a class="spin v-mid dib link dim mr2 w2 h2" href="./" title="${state.title}">
-          <img src="/img/dat-hexagon.svg" alt="Dat Project Logo">
+          <img src="/dat.land/img/dat-hexagon.svg" alt="Dat Project Logo">
         </a>
         <a class="v-mid link dim color-neutral b f5 f3-ns dib-l dn" href="./" title="Dat Project">Dat<span class="ml1 color-neutral-60">Land</span></a>
       </div>

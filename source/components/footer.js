@@ -6,7 +6,7 @@ module.exports = function (state, emit) {
       <div class="mw9 center">
         <div class="mb3 lh-copy">
           <a class="f4 b color-neutral dib link dim mr3 mt1" href="https://datproject.org" title="Dat Project">
-            <img src="/img/dat-hexagon.svg" class="dib w2 h2 mr2 v-mid mb1" alt="Dat Project">
+            <img src="/dat.land/img/dat-hexagon.svg" class="dib w2 h2 mr2 v-mid mb1" alt="Dat Project">
             Dat Project
           </a>
           <a class="f4 link color-neutral dim b dib mr3 mb3" href="http://docs.datproject.org" title="Documentation - Dat ">
