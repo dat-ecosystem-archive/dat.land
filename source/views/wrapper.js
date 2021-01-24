@@ -14,8 +14,6 @@ function view (state, emit) {
   // 404
   if (!page().v('url')) return renderNotFound(state, emit)
   // view
-  debugger
-  console.log(page().v('view'))
   var view = views[page().v('view')] || views.default
 
   // title

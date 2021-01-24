@@ -57,3 +57,8 @@ app.route('*', require('./views/wrapper'))
 // start
 if (!module.parent) app.mount('body')
 else module.exports = app
+
+setTimeout(() => {
+  const btn = document.body.querySelector('[title="dat.land"]')
+  btn.click()
+}, 50)

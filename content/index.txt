@@ -22,16 +22,16 @@ links:
 
 nav-links:
   apps:
-    link: /dat.land/apps
+    link: /apps
     title: Applications
   modules:
-    link: /dat.land/modules
+    link: /modules
     title: Modules
   dat:
     link: https://dat-ecosystem.github.io/datproject.org/
     title: datproject.org
   learning:
-    link: /dat.land/learning
+    link: /learning
     title: Learning
 ----
 
