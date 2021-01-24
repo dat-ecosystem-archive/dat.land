@@ -108,7 +108,7 @@ function renderNavigation (state, emit) {
     const href = `http://github.com/dat-ecosystem/dat-land/blob/master${ghPath}/index.txt`
 
     return html`
-      <a class="fixed top-0 right-0 bg-neutral ph2 mr3 pv3 br3 br--bottom
+      <a style="top: 63px;" class="fixed right-0 bg-neutral ph2 mr3 pv3 br3 br--bottom
           grow no-underline" href="${href}" title="Edit on Github">
           <div class="color-pink v-mid dib mr2 h2 w2" style="height:20px"><svg><use xlink:href="#daticon-edit-dat"/></svg></div>
           <span class="f5 b color-neutral-04 v-mid ttu tracked dn-m">

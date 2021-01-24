@@ -10,10 +10,10 @@ tagline: ecosystem
 
 links:
   dat:
-    link: https://dat-ecosystem.org
-    title: dat-ecosystem.org
+    link: https://dat-ecosystem.github.io/datproject.org/
+    title: datproject.org
   documentation:
-    link: https://github.com/dat-ecosystem/book/tree/master/src
+    link: https://dat-ecosystem.github.io/docs/
     title: Documentation
   chat:
     link: https://discord.gg/egsvGc9TkQ
@@ -28,8 +28,8 @@ nav-links:
     link: /modules
     title: Modules
   dat:
-    link: https://dat-ecosystem.org
-    title: dat-ecosystem.org
+    link: https://dat-ecosystem.github.io/datproject.org/
+    title: datproject.org
   learning:
     link: /learning
     title: Learning

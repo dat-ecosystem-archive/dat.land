@@ -18,6 +18,6 @@ list:
   howdatworks:
     title: How Dat Works
     description: A walk through the bits and bytes of Dat’s network protocol. Lots of pictures, just enough words.
-    link: https://datprotocol.github.io/how-dat-works
+    link: https://dat-ecosystem.github.io/how-dat-works
     tags: learning, protocol
 

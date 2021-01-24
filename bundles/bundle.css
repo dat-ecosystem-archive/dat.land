@@ -283,7 +283,7 @@ body {
   font-family: 'Source Sans Pro', 'PT Sans', 'Calibri', sans-serif;
   font-size: 100%;
   background-color: var(--white);
-  color: var(--coolor-neutral);
+  color: var(--color-neutral);
   -webkit-font-smoothing: antialiased;
 }
 
