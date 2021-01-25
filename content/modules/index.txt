@@ -18,15 +18,15 @@ list:
   storage:
     title: Random Access Storage Modules
     description: A random-access-storage instance is a common interface for a storage abstraction.
-    link: /dat.land/modules/storage
+    link: "/dat.land/modules/storage"
     tags: storage
   networking:
     title: Net Modules
     description: When building a Dat app you are free to choose how to connect peers.
-    link: /dat.land/modules/networking
+    link: "/dat.land/modules/networking"
     tags: network
   helpers:
     title: Helper Modules
     description: Some utilities for using Dat in different ways
-    link: /dat.land/modules/helpers
+    link: "/dat.land/modules/helpers"
     tags: helpers, utils

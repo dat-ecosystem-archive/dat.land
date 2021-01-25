@@ -23,7 +23,7 @@ setTimeout(function try_again () {
     font-weight: bold;
     color: black;
     z-index: 999;
-    width: 100vw;
+    width: 100%;
     padding: 20px;
   }
   </style>
