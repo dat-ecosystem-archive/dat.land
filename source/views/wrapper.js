@@ -23,6 +23,25 @@ function view (state, emit) {
   // template
   return html`
     <body>
+      <div class="positioned">
+      <style>
+      .positioned {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: yellow;
+        border-bottom: 2px solid black;
+        font-family: monospace;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        z-index: 999;
+        width: 100%;
+        padding: 20px;
+      }
+      </style>
+      <span>This website is deprecated. Please check out the new version at <a target="_blank" href="https://dat-ecosystem.github.io"> https://dat-ecosystem.github.io </a></span>
+      </div>
       <main class="relative flex flex-wrap">
         ${renderNavigation(state, emit)}
         <div class="min-vh-100-l w-100 w-80-l lh-copy pt3">

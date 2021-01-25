@@ -15694,15 +15694,7 @@ var Enoki = require('enoki');
 
 var app = choo();
 
-setTimeout(function try_again() {
-  var main = document.querySelector('main');
-  if (!main) setTimeout(try_again, 50);
-  var deprecated = document.createElement('div');
-  deprecated.innerHTML = '\n  <style>\n  .positioned {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background: yellow;\n    border-bottom: 2px solid black;\n    font-family: monospace;\n    font-size: 20px;\n    font-weight: bold;\n    color: black;\n    z-index: 999;\n    width: 100%;\n    padding: 20px;\n  }\n  </style>\n  <span>This website is deprecated. Please check out the new version at <a target="_blank" href="https://dat-ecosystem.github.io"> https://dat-ecosystem.github.io </a></span>\n  ';
-  deprecated.setAttribute('class', 'positioned');
-  console.log('This website is deprecated. Please check out the new version at https://dat-ecosystem.github.io');
-  document.body.insertBefore(deprecated, main);
-}, 100);
+console.log('This website is deprecated. Please check out the new version at https://dat-ecosystem.github.io');
 
 var defaults = {
   "blueprints": "/blueprints",
@@ -15728,11 +15720,6 @@ app.route('*', require('./views/wrapper'));
 
 // start
 if (!module.parent) app.mount('body');else module.exports = app;
-
-setTimeout(function () {
-  var btn = document.body.querySelector('[title="dat.land"]');
-  btn.click();
-}, 50);
 },{"./design":130,"./plugins/scroll":144,"./views/wrapper":149,"choo":134,"enoki":136,"enoki/choo":135}],132:[function(require,module,exports){
 var assert = require('assert');
 var LRU = require('nanolru');
@@ -16010,7 +15997,6 @@ Choo.prototype._matchRoute = function (locationOverride) {
   this._handler = matched.cb;
 
   if (location.startsWith('/dat.land')) location = location.slice(9);
-  console.log('choo', { href: this.state.href, location: location });
 
   this.state.href = location;
   this.state.query = nanoquery(queryString);
@@ -16406,7 +16392,6 @@ function wrapper(state) {
     var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
     // grab our content
-    console.log('parseValue');
     var page = state.content[state.href || '/'] || {};
     // set the value
     switch (typeof value) {
@@ -16470,7 +16455,6 @@ function files(state, value) {
 function find(state, value, url) {
   try {
     // grab from root
-    console.log('find');
     if (url.indexOf('/') === 0) {
       return state.content[url];
     }
@@ -16764,7 +16748,7 @@ function box(props) {
   }
 }
 },{"../components/format":129,"choo/html":133,"object-values":93}],149:[function(require,module,exports){
-var _templateObject = _taggedTemplateLiteral(['\n    <body>\n      <main class="relative flex flex-wrap">\n        ', '\n        <div class="min-vh-100-l w-100 w-80-l lh-copy pt3">\n          ', '\n        </div>\n      </main>\n      ', '\n    </body>\n  '], ['\n    <body>\n      <main class="relative flex flex-wrap">\n        ', '\n        <div class="min-vh-100-l w-100 w-80-l lh-copy pt3">\n          ', '\n        </div>\n      </main>\n      ', '\n    </body>\n  ']),
+var _templateObject = _taggedTemplateLiteral(['\n    <body>\n      <div class="positioned">\n      <style>\n      .positioned {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        background: yellow;\n        border-bottom: 2px solid black;\n        font-family: monospace;\n        font-size: 20px;\n        font-weight: bold;\n        color: black;\n        z-index: 999;\n        width: 100%;\n        padding: 20px;\n      }\n      </style>\n      <span>This website is deprecated. Please check out the new version at <a target="_blank" href="https://dat-ecosystem.github.io"> https://dat-ecosystem.github.io </a></span>\n      </div>\n      <main class="relative flex flex-wrap">\n        ', '\n        <div class="min-vh-100-l w-100 w-80-l lh-copy pt3">\n          ', '\n        </div>\n      </main>\n      ', '\n    </body>\n  '], ['\n    <body>\n      <div class="positioned">\n      <style>\n      .positioned {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        background: yellow;\n        border-bottom: 2px solid black;\n        font-family: monospace;\n        font-size: 20px;\n        font-weight: bold;\n        color: black;\n        z-index: 999;\n        width: 100%;\n        padding: 20px;\n      }\n      </style>\n      <span>This website is deprecated. Please check out the new version at <a target="_blank" href="https://dat-ecosystem.github.io"> https://dat-ecosystem.github.io </a></span>\n      </div>\n      <main class="relative flex flex-wrap">\n        ', '\n        <div class="min-vh-100-l w-100 w-80-l lh-copy pt3">\n          ', '\n        </div>\n      </main>\n      ', '\n    </body>\n  ']),
     _templateObject2 = _taggedTemplateLiteral(['\n    <body>\n      <main class="relative flex">\n        ', '\n        <div class="loading">\n        </div>\n      </main>\n      ', '\n    </body>\n  '], ['\n    <body>\n      <main class="relative flex">\n        ', '\n        <div class="loading">\n        </div>\n      </main>\n      ', '\n    </body>\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    <body>\n      <main class="relative flex">\n        ', '\n        <section class="dt w-80-l w-100 vh-100 bl b--black-10 black-70">\n          <div class="tc v-mid dtc w-100 h-100 bg-lightest-blue">\n            <h3 class="ttu tracked-tight f-subheadline">Page not found</h3>\n          </div>\n        </section>\n      </main>\n    </body>\n  '], ['\n    <body>\n      <main class="relative flex">\n        ', '\n        <section class="dt w-80-l w-100 vh-100 bl b--black-10 black-70">\n          <div class="tc v-mid dtc w-100 h-100 bg-lightest-blue">\n            <h3 class="ttu tracked-tight f-subheadline">Page not found</h3>\n          </div>\n        </section>\n      </main>\n    </body>\n  ']),
     _templateObject4 = _taggedTemplateLiteral(['\n    <nav class="bg-neutral w-20-l w-100 min-vh-100-l pa3 pa4-l pl3-l top-0 sticky-l">\n      <div class="flex flex-column-l justify-between mw-100">\n        <div class="pt3 bt bw2 b--color-pink color-neutral-04">\n          <a class="link mb0 f2 lh-title fw9" href="./" title="dat.land">\n            dat<span class=" hover-color-green color-neutral-50">\n            <img class="', ' w2 v-mid h2 mr1 pb1" src="/dat.land/assets/dat-logo-small.png">\n            land</span>\n          </a>\n        </div>\n        <h3 class="mt0 mb5 f3 color-neutral-04 lh-title mw5 dn db-l">\n          ', '\n        </h3>\n\n        <div class="f6 ttu tracked flex-grow pa3 pa0-l flex-none-l items-center">\n          ', '\n        </div>\n      </div>\n      <footer class="absolute bottom-0 mb4 color-neutral-04 dn db-l">\n        <a href="http://twitter.com/', '" target="_blank" class="dim f5 db mb1 lh-solid">@dat_project</p>\n        <a href="https://enoki.site" class="link f5 dim lh-solid">Built on Enoki</a>\n      </footer>\n    </nav>\n  '], ['\n    <nav class="bg-neutral w-20-l w-100 min-vh-100-l pa3 pa4-l pl3-l top-0 sticky-l">\n      <div class="flex flex-column-l justify-between mw-100">\n        <div class="pt3 bt bw2 b--color-pink color-neutral-04">\n          <a class="link mb0 f2 lh-title fw9" href="./" title="dat.land">\n            dat<span class=" hover-color-green color-neutral-50">\n            <img class="', ' w2 v-mid h2 mr1 pb1" src="/dat.land/assets/dat-logo-small.png">\n            land</span>\n          </a>\n        </div>\n        <h3 class="mt0 mb5 f3 color-neutral-04 lh-title mw5 dn db-l">\n          ', '\n        </h3>\n\n        <div class="f6 ttu tracked flex-grow pa3 pa0-l flex-none-l items-center">\n          ', '\n        </div>\n      </div>\n      <footer class="absolute bottom-0 mb4 color-neutral-04 dn db-l">\n        <a href="http://twitter.com/', '" target="_blank" class="dim f5 db mb1 lh-solid">@dat_project</p>\n        <a href="https://enoki.site" class="link f5 dim lh-solid">Built on Enoki</a>\n      </footer>\n    </nav>\n  ']),
