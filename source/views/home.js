@@ -22,7 +22,7 @@ function page (state, emit) {
               })}
             </div>
           </div>
-          ${ov(state.page().v('apps')).map(featuredBox)}
+          ${ov(state.page().v('nav-links')).map(featuredBox)}
         </div>
       </article>
     </section>
@@ -56,7 +56,7 @@ function featuredBox (props) {
     `
 
   function img (url) {
-    return html`<img class="w-100 br2 br--top" style="margin-bottom:auto;" src="${url}">`
+    return html`<img class="w-100 br2 br--top" style="margin-bottom:auto;" src="/dat.land/${url}">`
   }
 }
 

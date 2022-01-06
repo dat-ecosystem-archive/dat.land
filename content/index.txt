@@ -10,41 +10,41 @@ tagline: ecosystem
 
 links:
   dat:
-    link: https://datproject.org
+    link: https://dat-ecosystem.github.io/datproject.org/
     title: datproject.org
   documentation:
-    link: https://docs.datproject.org/
+    link: https://dat-ecosystem.github.io/docs/
     title: Documentation
   chat:
-    link: http://chat.datproject.org
+    link: https://discord.gg/egsvGc9TkQ
     title: Dat Chat
 ----
 
 nav-links:
   apps:
-    link: /apps
+    link: "/dat.land/apps"
     title: Applications
   modules:
-    link: /modules
+    link: "/dat.land/modules"
     title: Modules
   dat:
-    link: https://datproject.org
+    link: https://dat-ecosystem.github.io/datproject.org/
     title: datproject.org
   learning:
-    link: /learning
+    link: "/dat.land/learning"
     title: Learning
 ----
 
 featured:
   beaker:
     link: https://beakerbrowser.com
-    image: /assets/beaker-screenshot.png
+    image: /dat.land/assets/beaker-screenshot.png
     title: Beaker Browser
     description: An experimental browser for exploring and building the peer-to-peer Web.
     author: Blue Link Labs
   desktop:
     link: https://github.com/dat-land/dat-desktop
-    image: /assets/dat-desktop-empty.png
+    image: /dat.land/assets/dat-desktop-empty.png
     title: Dat Desktop
     description: Use Dat with a desktop app.
     author: Contributors & Dat Project Developers
@@ -53,18 +53,18 @@ featured:
   cabal:
     link: http://cabal.chat/
     title: Cabal Chat
-    image: /assets/cabal.png
+    image: /dat.land/assets/cabal.png
     description: experimental p2p community chat platform
     author: Contributors Welcome y'all
   sciencefair:
     link: http://sciencefair-app.com/
-    image: /assets/sf-home.png
+    image: /dat.land/assets/sf-home.png
     title: ScienceFair
     description: Search, collect, read and reuse the scientific literature.
     author: Richard Smith-Unna
   pixel:
     link: https://github.com/automerge/pixelpusher
-    image: /assets/pixelpusher.png
+    image: /dat.land/assets/pixelpusher.png
     title: Pixelpusher
     description: Pixel Art Editor with real-time peer-to-peer collaboration using React.
     author: Ink & Switch

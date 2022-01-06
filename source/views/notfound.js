@@ -18,7 +18,7 @@ function view (state, emit) {
             <h4 class="f3-ns f4 fw2 lh-copy">
              Oh no! Did you check if it was plugged in?
             </h4>
-            <h5 class="f6 fw3 small-caps tracked"><a class="dim link" href="/">Go Home</a></h5>
+            <h5 class="f6 fw3 small-caps tracked"><a class="dim link" href="./">Go Home</a></h5>
           </div>
         </div>
       </header>
