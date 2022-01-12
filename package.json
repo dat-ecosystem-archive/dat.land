@@ -17,7 +17,7 @@
     "dat-colors": "^3.5.1",
     "dat-icons": "^2.5.2",
     "enoki": "^2.1.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "marked": "^0.5.1",
     "nanocomponent": "^6.4.0",
     "nanoreset": "^3.0.1",
