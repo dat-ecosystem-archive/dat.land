@@ -24,7 +24,7 @@ function page (state, emit) {
 
 function box (props) {
     return html`
-      <a href="${props.link}" class="link flex flex-column w-30-ns w-50 br2 ba color-neutral b--neutral-10 mb3">
+      <a href="${props.link}" class="link flex flex-column w-30-ns w-50 br2 ba color-neutral b--neutral-10 mb3", target="_blank">
         <div class="ph2 ph3-ns">
           <div class="dt w-100 mt1">
             <div class="dtc">
